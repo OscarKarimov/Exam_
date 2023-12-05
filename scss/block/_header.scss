@@ -1,0 +1,297 @@
+.header {
+	padding-top: 40px;
+	background-color: #EDF3F8;
+}
+
+.header {
+	background-image: url(/images/header/header_bc_img.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center top;
+}
+
+.header__container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 32px;
+}
+
+.header__navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+
+.header__icon {
+	width: 135px;
+	height: 38px;
+	flex-shrink: 0;
+}
+
+.header__item {
+	display: none;
+}
+
+.header__button {
+	display: none;
+}
+
+.header__btn {
+	width: 28px;
+	height: 17px;
+	flex-shrink: 0;
+	background-image: url(../images/header/menu.svg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	cursor: pointer;
+}
+
+.header__hero {
+	padding-bottom: 79px;
+}
+
+.header__info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.hero__info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.header__device {
+	margin-bottom: 24.27px;
+}
+
+.header__device_img {
+	max-width: 127.2px;
+	height: 239.727px;
+	flex-shrink: 0;
+	border-radius: 16px;
+}
+
+.header__text {
+	margin-bottom: 24px;
+	text-align: center;
+}
+
+.header__title {
+	max-width: 327px;
+	width: 100%;
+	color: #36536B;
+	font-family: "DM Serif Display";
+	font-size: 32px;
+	font-weight: 400;
+	line-height: 36px;
+	letter-spacing: -0.246px;
+}
+
+.header__form {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	margin-bottom: 24px;
+}
+
+.header__form__input {
+	padding: 16px 158px 14px 27px;
+	border-radius: 24px;
+	background-color: #FBFCFE;
+	outline: none;
+	box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+	width: 100%;
+	max-width: 327px;
+	font-weight: 700;
+	border: none;
+}
+
+.header__form__input::placeholder {
+	color: #36536B;
+	line-height: normal;
+	opacity: 0.5;
+}
+
+.button__btn {
+	max-width: 327px;
+	width: 100%;
+	border-radius: 24px;
+	background-color: #BA4270;
+	color: #FBFCFE;
+	font-family: "Public Sans";
+	text-align: center;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: -0.115px;
+	padding: 16px 46px 14px 50px;
+}
+
+.contact__us {
+	color: #6C8294;
+	font-family: "Public Sans";
+	font-weight: 400;
+	line-height: normal;
+}
+
+.contact {
+	color: #6C8294;
+	font-family: Public Sans;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-decoration-line: underline;
+}
+
+@media screen and (min-width: 768px) {
+	.header {
+		background-image: url(/images/header/header_bcg_img_tablet.png);
+	}
+
+	.header__navbar {
+		padding-bottom: 48px;
+	}
+
+	.header__link {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.header__item {
+		display: flex;
+		gap: 40px;
+		justify-content: space-between;
+		margin-left: 64px;
+	}
+
+	.header__items {
+		color: #36536B;
+		font-weight: 700;
+		line-height: normal;
+		opacity: 0.7;
+	}
+
+	.header__button {
+		display: inline-block;
+		color: #FBFCFE;
+		font-weight: 700;
+		line-height: normal;
+		letter-spacing: -0.115px;
+	}
+
+	.header__hero {
+		padding-bottom: 99px;
+	}
+
+	.header__btn {
+		display: none;
+	}
+
+	.header__device {
+		margin-bottom: 48.34px;
+	}
+
+	.header__device_img {
+		max-width: 159px;
+		height: 300px;
+		border-radius: 22px;
+	}
+
+	.header__text {
+		margin-bottom: 22px;
+	}
+
+	.header__title {
+		max-width: 576px;
+		font-size: 48px;
+		line-height: 56px;
+		letter-spacing: -0.369px;
+	}
+
+	.header__form {
+		display: flex;
+		flex-direction: row;
+		margin-bottom: 16px;
+		margin-right: -173px;
+	}
+
+	.header__form__input {
+		padding: 16px 276px 14px 27px;
+		max-width: 445px;
+	}
+
+	.button__btn {
+		max-width: 173px;
+		padding: 16px 24.5px 14px 26.5px;
+		transform: translateX(-100%);
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.header {
+		background-image: url(/images/header/header_bc_img_laptop.png);
+		background-position: right -60px top -50px;
+	}
+
+	.header__container {
+		padding-bottom: 0;
+	}
+
+	.header__navbar {
+		padding-bottom: 74px;
+	}
+
+	.header__hero {
+		padding-bottom: 75.57px;
+	}
+
+	.header__info {
+		display: flex;
+		flex-direction: row-reverse;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.hero__info {
+		align-items: flex-start;
+	}
+
+	.header__device {
+		margin-bottom: 0;
+		transform: translateX(-95px);
+	}
+
+	.header__device_img {
+		max-width: 263px;
+		height: 500px;
+		border-radius: 36px;
+	}
+
+	.header__text {
+		margin-bottom: 21px;
+	}
+
+	.header__title {
+		max-width: 546px;
+		line-height: 72px;
+		font-size: 72px;
+		letter-spacing: -0.554px;
+		text-align: left;
+	}
+
+	.header__form {
+		display: flex;
+		flex-direction: row;
+		margin-bottom: 16px;
+		margin-right: -173px;
+	}
+
+	.header__contact {
+		margin-left: 27px;
+	}
+}

@@ -1,0 +1,148 @@
+.work {
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background-color: #1B262F;
+}
+
+.work {
+	background-image: url(/images/design_block/about_background_m.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: contain;
+}
+
+.work__links {
+	display: grid;
+	grid-template-columns: auto auto;
+	text-align: center;
+}
+
+.work__link:not(:nth-child(5), :last-child) {
+	margin-bottom: 40px;
+}
+
+.work__info {
+	text-align: center;
+}
+
+.work__title {
+	max-width: 327px;
+	color: #FBFCFE;
+	font-family: "DM Serif Display";
+	font-size: 32px;
+	font-weight: 400;
+	line-height: 36px;
+	letter-spacing: -0.246px;
+	margin-bottom: 16px;
+	margin-top: 56px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.work__subtitle {
+	color: #FBFCFE;
+	font-family: "Public Sans";
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 28px;
+	margin-bottom: 60px;
+}
+
+.about {
+	color: #FBFCFE;
+	text-align: center;
+	font-family: "Public Sans";
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: -0.115px;
+	border-radius: 24px;
+	border: 1px solid #FBFCFE;
+	padding: 16px 32px 14px 32px;
+}
+
+@media screen and (min-width: 768px) {
+	.work {
+		padding-top: 88px;
+		padding-bottom: 88px;
+	}
+
+	.work {
+		background-image: url(/images/header/header_bcg_img_tablet.png);
+		background-position: center top -50px;
+	}
+
+	.work__links {
+		display: grid;
+		grid-template-columns: auto auto auto;
+		text-align: center;
+	}
+
+	.work__item {
+		width: 145px;
+		height: 31px;
+		flex-shrink: 0;
+	}
+
+	.work__link:not(:nth-child(3)) {
+		margin-bottom: 0px;
+	}
+
+	.work__title {
+		max-width: 457px;
+		font-size: 48px;
+		line-height: 56px;
+		letter-spacing: -0.369px;
+		margin-bottom: 24px;
+		margin-top: 64px;
+	}
+
+	.work__subtitle {
+		margin-bottom: 32px;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.work {
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+
+	.work__container {
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.work {
+		background-image: url(/images/design_block/about_background_laptop.png);
+		background-position: left top;
+	}
+
+	.work__links {
+		gap: 40px;
+	}
+
+	.work__item {
+		max-width: 130px;
+		height: 25px;
+	}
+
+	.work__link:not(:nth-child(5), :last-child) {
+		margin-bottom: 0;
+	}
+
+	.work__info {
+		text-align: left;
+	}
+
+	.work__title {
+		max-width: 445px;
+		margin-top: 0;
+	}
+
+	.work__subtitle {
+		max-width: 445px;
+		margin-bottom: 40px;
+	}
+}

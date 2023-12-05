@@ -1,0 +1,35 @@
+.ready {
+	padding-bottom: 80px;
+}
+
+.ready__container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.ready__form__input {
+	border: none;
+}
+
+@media screen and (min-width: 768px) {
+	.ready {
+		padding-bottom: 100px;
+	}
+}
+@media screen and (min-width: 992px) {
+	.ready {
+		padding-bottom: 96px;
+	}
+
+	.ready__container {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.ready__title {
+		font-size: 48px;
+		line-height: 56px;
+	}
+}
